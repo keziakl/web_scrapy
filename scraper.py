@@ -6,6 +6,9 @@ function. The scrape_google_snippets function uses the SerpScrap python library.
 The scrape_google_snippets_raw function uses a combination of BeautifulSoup,
 regex, and the nltk English words corpus.
 '''
+
+#not sure if I'll be able to implement with SerpScrap because of chromedriver issues
+
 import requests
 import re
 import nltk
